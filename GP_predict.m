@@ -1,4 +1,4 @@
-function [u,s] = GP_predict(test_x,model)
+function [u,s] = GP_Predict(test_x,model)
 % parameters of Kriging model
 theta = model.theta;
 mu = model.mu;
